@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include header.html %}
+
+<body>
+    {% include navigation.html %}
+
+    {% if page.basic-header == true %}
+        {% include body-basic-header.html %}
+    {% endif %}
+    {% if page.post-header == true %}
+        {% include body-post-header.html %}
+    {% endif %}
+
+    <main>
+    {{ content }}
+
+    <!-- {% if page.text == true %}
+        {% include partial-share.html %}
+    {% endif %} -->
+
+    </main>
+{% include footer.html %}
+</body>
+</html>

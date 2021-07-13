@@ -1,0 +1,48 @@
+## Build settings
+markdown:       kramdown
+# include:
+#   - _pages
+
+## Excludes
+# exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+## Assets
+sass: #sass??
+  sass_dir:     _sass
+  style:        :compressed
+
+## Gems
+# plugins:
+  # - jekyll-feed
+  # - jekyll-paginate
+  # - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+## Global Variable
+permalink:      /:year-:month-:day/:title #linkFormat
+# paginate:       5 #pageSize
+
+
+## remote theme setting
+#remote_theme : mmistakes/minimal-mistakes #OWNER/REPOSITORY Format String
+
+## Site settings
+title:          Sun #site Title
+description:    ""
+baseurl:        "" #subpath of your site
+url:            "https://mk-sun.github.io" #base hostname
+
+## Author
+author:
+  name:         SunWoo Nam
+  # url:
+  email:        mk.sunwoo@gmail.com
+  github:       mk-sun
+  # twitter:
+
+## Custom vars
+version:        1.0.0
+github:
+  repo:         https://github.com/mk-sun/mk-sun.github.io
+# disqus:         jekyll-tale #댓글 관련 기능 disqus ID설정 https://dololak.tistory.com/664
+# google_analytics: UA—XXXXXXXX-X #구글 analytics 설정
